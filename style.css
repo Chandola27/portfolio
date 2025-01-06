@@ -1,0 +1,227 @@
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Baloo Bhai 2", serif;
+    
+  }
+body{
+    width: 100%;
+    min-width: 1250px;
+}
+  .markazi-text-uniquifier {
+    font-family: "Markazi Text", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+  .tinos-regular {
+    font-family: "Tinos", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .tinos-bold {
+    font-family: "Tinos", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .tinos-regular-italic {
+    font-family: "Tinos", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+
+  .tinos-bold-italic {
+    font-family: "Tinos", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+
+  .baloo-bhai-2-uniquifier > {
+    font-family: "Baloo Bhai 2", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+  .container {
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
+    background-color: #f9f6f3;
+    border-radius: 30px;
+    /* height: 1080px; */
+
+  }
+  nav {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 55px;
+  }
+  nav ul {
+    display: flex;
+    justify-content: space-around;
+  }
+  nav ul li {
+    color: black;
+    font-size: 1.3rem;
+    list-style: none;
+    text-decoration: none;
+    margin-right: 25px;
+  }
+  nav ul li a {
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  #left {
+    font-size: 25px;
+  }
+  main {
+    
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+
+  }
+  .main-page{
+    padding: 50px;
+    border-radius: 20px;
+    width: 95%;
+  }
+  main .first-page {
+    background: url("rb_18403.png");
+    background-repeat:no-repeat ;
+    /* position: absolute; */
+    background-color: #f9f6f3;
+    background-size: cover;
+    display: flex;  
+    width: 95%;
+    justify-content: space-around;
+    border-radius: 20px;
+    padding: 50px;
+    height: 1512;
+    margin-bottom: 20px;
+    margin: auto;
+  }
+  .left-main {
+    width: 350px;
+  }
+  .left-main img {
+    width: 450px;
+
+    mix-blend-mode: multiply;
+  }
+  .right-main {
+    padding-top: 10px;
+    width: 520px;
+    align-items: center;
+    align-content: center;
+    height: 400px;
+  }
+  .right-main h1 {
+    font-size: 3.3rem;
+  }
+  .right-main p {
+    margin-top: 10px;
+    font-size: 1.8rem;
+    font-weight: 500;
+  }
+  .right-main span {
+    text-decoration: underline;
+    font-size: 1.9rem;
+    font-weight: 550;
+  }
+
+  /* .second-page{
+    margin-top: 110px;
+      margin: 20px auto;
+      background-color: #ffffff;
+      height: 500px; */
+    /* } */
+    .second-page{
+      /* margin-top: 110px; */
+      margin: 20px auto;
+      /* position: relative; */
+      box-sizing: border-box;
+      margin-top: 115px;
+      display: flex;
+      flex-wrap: wrap;
+      /* background-color: #ffffff; */
+      height: 120rem; 
+    }
+    .second-page h1{
+      margin-top: 15px;
+      margin-left: 10px;
+      font-size: 3.5rem;
+      display: inline;
+      font-weight: 700;
+    }
+    .second-page h1 span{
+      /* margin-top: 10px; */
+      /* margin-left: 10px; */
+      font-size: 4  rem;
+      font-weight: 850;
+      text-decoration: underline;
+    }
+.second-page h1::after{
+  background: url(circle-blue.svg);
+  content: "";
+  display: block;
+  position: absolute;
+  width: calc(100% + -12.95em);
+  height: calc(100% + -11em);
+  top: 49rem;
+  right: 26rem;
+  /* background: url(../../assets/images/icons/circle-blue.svg); */
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: -1;
+}
+.heading2{
+  height: 400px;
+}
+.cards {
+  width: 500px;
+  padding: 25px;
+  margin-left: 10rem;
+  background-color: antiquewhite;
+  border-radius: 12px;
+  height: 700px;
+  margin-bottom: 3rem;
+}
+.cards h2{
+  font-size: 2rem;
+}
+.cards p{
+  font-size: 1.2rem;
+  font-weight: 550;
+}
+.card1{
+  margin-left: 15.5rem !important;
+}
+.card2{
+  margin-top: -26rem;
+}
+.card3{
+  margin-top: 2rem;
+  margin-left: 11rem ;
+}
+.card4{
+  margin-top:-24.4rem;
+}
+.card5{
+  height: 300px;
+  margin-left: 11rem;
+}
+.cards img{
+  height: 300px;
+  
+}
+.third-page{
+  box-sizing: border-box;
+  overflow: hidden;
+}
